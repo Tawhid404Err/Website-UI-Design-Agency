@@ -31,7 +31,7 @@ const Nav = () => {
           <img src={NavLogo} alt="Nav Logo" />
         </div>
         <div
-          className={`${top} z-[-1] min-[960px]:z-[1] flex absolute [&>a]:my-1 min-[960px]:[&>a]:mx-1 min-[960px]:[&>a]:px-2 left-1/2  w-dvw -translate-x-1/2 -translate-y-1/2 flex-col items-center bg-[var(--nav-color)] py-2 min-[960px]:top-1/2 min-[960px]:block min-[960px]:w-[max-content] [&>a]:rounded-full [&>a]:px-4 [&>a]:py-2 [&>a]:duration-300 [&>a]:hover:bg-[var(--action-lite)] lg:[&>a]:px-3.5 xl:[&>a]:px-6`}
+          className={`${top} absolute left-1/2 z-[-1] flex w-dvw -translate-x-1/2 -translate-y-1/2 flex-col items-center bg-[var(--nav-color)] py-2 min-[960px]:top-1/2 min-[960px]:z-[1] min-[960px]:block min-[960px]:w-[max-content] [&>a]:my-1 [&>a]:rounded-full [&>a]:px-4 [&>a]:py-2 [&>a]:duration-300 [&>a]:hover:bg-[var(--action-lite)] [&>a]:focus:bg-[var(--action-lite)] min-[960px]:[&>a]:mx-1 min-[960px]:[&>a]:px-2 lg:[&>a]:px-3.5 xl:[&>a]:px-6`}
         >
           <a href="#home">Home</a>
           <a href="#service">Service</a>
@@ -39,12 +39,12 @@ const Nav = () => {
           <a href="#product">Product</a>
           <a href="#testimonial">Testimonial</a>
           <a href="#faq">FAQ</a>
-          <div className="block sm:hidden my-2 [&>*]:mx-3 [&>*]:cursor-pointer [&>*]:rounded-md [&>*]:px-6 [&>*]:py-2">
-            <button className="cursor-pointer border border-transparent text-[var(--action-color)] duration-300 hover:border-[var(--action-color)]">
+          <div className="my-2 block sm:hidden [&>*]:mx-3 [&>*]:cursor-pointer [&>*]:rounded-md [&>*]:px-6 [&>*]:py-2">
+            <button className="cursor-pointer border border-transparent text-[var(--action-color)] duration-300 hover:border-[var(--action-color)] focus:border-[var(--action-color)]">
               Login
             </button>
 
-            <button className="bg-[var(--action-color)] text-white duration-300 hover:bg-[var(--action-dark)]">
+            <button className="bg-[var(--action-color)] text-white duration-300 hover:bg-[var(--action-dark)] focus:bg-[var(--action-dark)]">
               Sign up
             </button>
           </div>
