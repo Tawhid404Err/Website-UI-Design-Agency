@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="flex justify-center lg:order-last">
         <img src={HeroImg} className="xl:w-[622px]" alt="Hero Image" />
       </div>
-      <div className="flex flex-col items-start justify-center">
+      <div className="flex flex-col items-start justify-center pb-8">
         <div className="h-[max-content]">
           <h1 className="mt-4 text-5xl font-bold text-[var(--headin-text)]">
             Lessons and insights
