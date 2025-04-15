@@ -10,6 +10,20 @@
   --context-color: #717171;
 }
 
+.box-shaddow-card {
+  box-shadow: 0 0 30px #3e9e4100;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 30px #3e9e414f;
+  }
+}
+
+.common-btn {
+  @apply rounded-[5px] bg-[var(--action-color)] px-13 py-3.5 text-[20px] text-white duration-300 hover:bg-[var(--action-dark)] focus:bg-[var(--action-dark)];
+}
+
 .container {
   width: 100%;
   @media (width >= 40rem /* 640px */) {

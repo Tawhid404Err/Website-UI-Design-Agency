@@ -25,13 +25,13 @@ const Nav = () => {
   }
 
   return (
-    <nav className="border border-gray-300 bg-[var(--nav-color)]">
+    <nav className="relative border border-gray-300 bg-[var(--nav-color)]">
       <div className="relative container mx-auto flex h-21 w-dvw items-center justify-between px-4 [&>*]:h-[max-content]">
         <div>
           <img src={NavLogo} alt="Nav Logo" />
         </div>
         <div
-          className={`${top} absolute left-1/2 z-[-1] flex w-dvw -translate-x-1/2 -translate-y-1/2 flex-col items-center bg-[var(--nav-color)] py-2 min-[960px]:top-1/2 min-[960px]:z-[1] min-[960px]:block min-[960px]:w-[max-content] [&>a]:my-1 [&>a]:rounded-full [&>a]:px-4 [&>a]:py-2 [&>a]:duration-300 [&>a]:hover:bg-[var(--action-lite)] [&>a]:focus:bg-[var(--action-lite)] min-[960px]:[&>a]:mx-1 min-[960px]:[&>a]:px-2 lg:[&>a]:px-3.5 xl:[&>a]:px-6`}
+          className={`${top} absolute left-1/2 z-[20] flex w-dvw -translate-x-1/2 -translate-y-1/2 flex-col items-center bg-[var(--nav-color)] py-2 min-[960px]:top-1/2 min-[960px]:z-[1] min-[960px]:block min-[960px]:w-[max-content] [&>a]:my-1 [&>a]:rounded-full [&>a]:px-4 [&>a]:py-2 [&>a]:duration-300 [&>a]:hover:bg-[var(--action-lite)] [&>a]:focus:bg-[var(--action-lite)] min-[960px]:[&>a]:mx-1 min-[960px]:[&>a]:px-2 lg:[&>a]:px-3.5 xl:[&>a]:px-6`}
         >
           <a href="#home">Home</a>
           <a href="#service">Service</a>
