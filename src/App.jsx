@@ -8,6 +8,7 @@ import LoginMobile from "./assets/rafiki.svg";
 import LoginMobile2 from "./assets/login-mobile.svg";
 import ReviewSection from "./components/ReviewSection";
 import IdeasSection from "./components/IdeasSection";
+import LastSection from "./components/LastSection";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       />
       <ReviewSection />
       <IdeasSection />
+      <LastSection />
     </>
   );
 }
