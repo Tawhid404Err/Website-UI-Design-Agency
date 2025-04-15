@@ -71,7 +71,7 @@ const Clients = () => {
           </p>
         </div>
 
-        <div className="my-8 block lg:flex lg:justify-evenly [&>*]:mx-auto [&>*]:my-4">
+        <div className="my-8 block p-4 lg:flex lg:justify-evenly [&>*]:mx-auto [&>*]:my-4">
           <Card1
             icon={ClientIcon1}
             heading="Membership Organisations"

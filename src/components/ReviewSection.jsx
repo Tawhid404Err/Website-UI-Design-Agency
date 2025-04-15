@@ -55,7 +55,7 @@ const ReviewSection = () => {
               href="#"
               className="my-4 flex items-center text-[1.8rem] text-[var(--action-color)] underline lg:my-0"
             >
-              Meet all customers{" "}
+              Meet all customers
               <GoArrowRight className="animate-shake animate-infinite animate-duration-1500 animate-ease-linear animate-fill-forwards ml-4 text-[2.5rem]" />
             </a>
           </div>

@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import LoginMobile from "./assets/rafiki.svg";
 import LoginMobile2 from "./assets/login-mobile.svg";
 import ReviewSection from "./components/ReviewSection";
+import IdeasSection from "./components/IdeasSection";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         context="Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida."
       />
       <ReviewSection />
+      <IdeasSection />
     </>
   );
 }

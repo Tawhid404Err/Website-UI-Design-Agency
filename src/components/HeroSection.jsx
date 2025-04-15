@@ -15,7 +15,7 @@ const HeroSection = () => {
             from 8 years
           </span>
         </div>
-        <p className="my-4 mb-8 w-[370px] text-[18px] text-[var(--context-color)]">
+        <p className="my-4 mb-8 text-[18px] text-[var(--context-color)] sm:w-[280px]">
           Where to grow your business as a photographer: site or social media?
         </p>
 
