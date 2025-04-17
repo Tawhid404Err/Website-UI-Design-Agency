@@ -49,6 +49,7 @@ const Footer = () => {
                 <input
                   className="flex-1 px-2 text-[var(--footer-link)] focus:outline-none"
                   type="email"
+                  placeholder="Drop Your Email ...."
                 />
                 <button className="bg-[var(--action-color)] px-3 hover:cursor-pointer hover:bg-[#4caf4fb7] hover:duration-200">
                   <FaPaperPlane className="size-6 h-full fill-white" />
@@ -80,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center border-t border-[var(--headin-text)] pt-4 text-center text-white">
+        <div className="flex items-center justify-center border-t border-[var(--action-color)] pt-4 text-center text-white">
           © {new Date().getFullYear()} Tawhid Islam | All rights reserved.
         </div>
       </div>
