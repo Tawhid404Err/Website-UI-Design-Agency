@@ -50,7 +50,7 @@ const Footer = () => {
                   className="flex-1 px-2 text-[var(--footer-link)] focus:outline-none"
                   type="email"
                 />
-                <button className="bg-[var(--action-color)] px-3">
+                <button className="bg-[var(--action-color)] px-3 hover:cursor-pointer hover:bg-[#4caf4fb7] hover:duration-200">
                   <FaPaperPlane className="size-6 h-full fill-white" />
                 </button>
               </div>
