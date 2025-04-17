@@ -7,8 +7,10 @@ const Card2 = ({ context, img }) => {
         <img src={img} alt="Image 1" />
       </div>
 
-      <div className="box-shaddow-card relative m-4 mt-[-70px] rounded-2xl border border-[var(--action-color)] bg-white p-4">
-        <h1 className="mx-auto w-[200px] text-center">{context}</h1>
+      <div className="box-shaddow-card relative m-4 mt-[-70px] rounded-2xl border border-[var(--action-color)] bg-[var(--ideas-color)] p-4">
+        <h1 className="text-shaddow-class mx-auto w-[200px] text-center text-white">
+          {context}
+        </h1>
 
         <a
           href="#"

@@ -4,7 +4,7 @@ const LastSection = () => {
   return (
     <div className="bg-[var(--nav-color)] p-4">
       <div className="container mx-auto flex flex-col items-center py-12">
-        <h1 className="mb-10 text-center text-6xl font-bold text-[var(--headin-text)] sm:w-[600px]">
+        <h1 className="mb-10 text-center text-5xl font-bold text-[var(--headin-text)] sm:w-[600px]">
           Pellentesque suscipit fringilla libero eu.
         </h1>
         <a

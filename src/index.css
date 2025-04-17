@@ -5,10 +5,34 @@
 :root {
   --action-color: #4caf4f;
   --action-dark: #3e9e41;
+  --ideas-color: #93e5968f;
   --action-lite: #93e596;
   --nav-color: #f5f7fa;
   --headin-text: #4d4d4d;
   --context-color: #717171;
+  --footer-color: #263238;
+  --footer-link: #c9c3c3;
+  --input-box: #515b60;
+}
+
+@layer utilities {
+  @keyframes oscillate {
+    0%,
+    100% {
+      transform: translateY(30px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-oscillate {
+    animation: oscillate 5s ease-in-out infinite;
+  }
+
+  .animate-oscillate-slow {
+    animation: oscillate 4s ease-in-out infinite;
+  }
 }
 
 .box-shaddow-card {
@@ -18,6 +42,10 @@
   &:hover {
     box-shadow: 0 0 30px #3e9e414f;
   }
+}
+
+.text-shaddow-class {
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.637);
 }
 
 .common-btn {

@@ -5,7 +5,7 @@ const Card1 = ({ icon, heading, context }) => {
         <img src={icon} alt="ClientIcon 1" />
       </span>
 
-      <h1 className="text-[var(--headin-text) text-[2rem] leading-[2.3rem]">
+      <h1 className="text-[2rem] leading-[2.3rem] text-[var(--headin-text)]">
         {heading}
       </h1>
       <p className="text-[var(--context-color)]">{context}</p>

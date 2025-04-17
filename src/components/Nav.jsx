@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavLogo from "../assets/logo.png";
+import NavLogo from "../assets/Logo.svg";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdClose } from "react-icons/md";
 

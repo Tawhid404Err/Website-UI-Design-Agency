@@ -42,7 +42,7 @@ const ReviewSection = () => {
             British Dragon Boat Racing Association
           </p>
           <div className="lg:flex lg:justify-between lg:pt-4">
-            <div className="my-7 flex flex-1 justify-between lg:my-0 lg:pr-8">
+            <div className="my-7 flex flex-1 flex-wrap justify-between lg:my-0 lg:pr-8">
               <img src={ClientImg1} alt="Icon 1" />
               <img src={ClientImg2} alt="Icon 2" />
               <img src={ClientImg3} alt="Icon 3" />
